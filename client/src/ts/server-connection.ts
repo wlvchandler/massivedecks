@@ -137,7 +137,7 @@ class LobbyConnection {
         setTimeout(() => {
           if (!this.closed) {
             if (parent.lobbyConnection === this) {
-              this.delay = Math.min(LobbyConnection.maxDelay, this.delay * 2);
+              this.delay = Math.min(LobbyConnection.maxDelay*5, this.delay * 5);
               this.socket = this.open(parent, url);
             }
           }

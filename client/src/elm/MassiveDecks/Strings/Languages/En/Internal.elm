@@ -11,7 +11,7 @@ translate _ mdString =
     case mdString of
         -- General
         MassiveDecks ->
-            [ Text "Massive Decks" ]
+            [ Text "Bad Bloomers" ]
 
         Close ->
             [ Text "Close" ]
@@ -59,7 +59,7 @@ translate _ mdString =
                 ]
 
         ShortGameDescription ->
-            [ Text "A comedy party game." ]
+            [ Text "At least it's not Among Us." ]
 
         WhatIsThis ->
             [ Text "What is ", ref MassiveDecks, Text "?" ]
