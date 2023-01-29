@@ -1,0 +1,16 @@
+{
+  name: "Action Cards",
+  language: "en",
+  author: "bloomers",
+  calls: [],
+  responses: [
+    "Action: I win this round! (This card must be chosen)",
+    "Action: Round Ruiner (This card must be chosen, the winner must exchange their hand)",
+    "Action: Blue Shell (Whoever is winning must exchange their hand)",
+    "Action: Not So Fast (Next person to win a round must exchange their hand)",
+    "Action: Lift the Curtain (Everyone must reveal which card they played)",
+    "Action: No Winners Allowed (Whoever is in first place must reveal the card(s) they played. Czar cannot choose these)",
+    "Action: Fuck You In Particular (Choose a card that has been played. Czar cannot choose that as the winner.)",
+    "Action: Tax the Rich (Everyone with at least 1 point must exchange their hand)",
+  ],
+}
